@@ -25,5 +25,5 @@ fi
 # source only for bash and interactive shells
 test  -z "$BASH_VERSION" \
 	|| test -z "$TERM" -o "x$TERM" = xdumb \
-		|| test -f ~/.config/liquidprompt/liquidprompt \
-			&& source ~/.config/liquidprompt/liquidprompt
+		|| test -f ~/liquidprompt/liquidprompt \
+			&& source ~/liquidprompt/liquidprompt
